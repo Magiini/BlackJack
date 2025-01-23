@@ -1,0 +1,49 @@
+body{
+  text-align: center;
+}
+div{
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.reka{
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+button{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #45a049;
+}
+button:disabled , #graj:disabled, #zeruj:disabled{
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+button + button {
+  margin-left: 10px;
+}
+button {
+  width: 100px;
+  height: 40px;
+}
+#graj{
+  background-color: #0959c2;
+}
+#zeruj{
+  background-color: #ec2106;
+}
+
+
